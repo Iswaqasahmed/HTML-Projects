@@ -1,0 +1,1144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    font-family: sans-serif;
+  
+}
+.header 
+{
+    background-color:darkslategrey;
+    min-height: 100px;
+}
+.inner-header
+{
+    width: 80%;
+    margin: auto;
+    min-height: 100px;
+}
+.logo
+{
+    color: white;
+    margin-top: 30px;
+    float: left;
+    font-size: 15px;
+    font-family:monospace;
+    color:darkorange;
+}
+.logo a
+{
+    color: white;
+    text-decoration: none;
+}
+.logo a:hover
+{
+    color:bisque;
+}
+ul
+{
+    padding: 0px;
+    margin: 0px;  
+    float: right;
+}
+
+ul li
+{
+    float: left;
+    list-style: none;
+    font-size: 23px;
+    margin-top: 30px;
+    margin-left: 30px;    
+}
+ul li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover
+{
+    color:bisque;
+}
+.banner
+{
+    background-image: url(showcase.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.banner h2 
+{
+    font-size: 41px;
+    font-weight: 500;
+}
+.banner h1
+{
+    font-size: 81px;
+}
+.btn1
+{
+    padding: 16px;
+    width: 150px;
+    background-color:deepskyblue;
+    border: none;
+    color: white;
+}
+.btn1:hover
+{
+    cursor: pointer;
+    background-color:darksalmon;
+}
+.services
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.services h1
+{
+    margin-top: 70px;
+}
+.inner-services
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.inner-services .col1 p, .inner-services .col2 p, .inner-services .col3 p
+{
+    margin-top: 15px;
+}
+.inner-services .col2
+{
+    margin-left: 10px;
+}
+
+.inner-services .col3
+{
+    margin-left: 10px;
+}
+
+.portfolio
+{
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 30px;
+    background-color:aliceblue;
+}
+
+.row
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.row img
+{
+    margin-left: 80px;
+    width: 250px; 
+    height: 250px;
+}
+
+.portfolio p
+{
+    margin-bottom: 55px;
+}
+
+.fig1
+{
+    margin-left: 70px;
+    margin-top: 15px;
+    font-size: 27px;
+    font-weight: bold;
+    
+}
+.fig2 
+{
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 70px; 
+    margin-bottom: 50px;
+}
+figcaption
+{
+    background-color: beige;
+    padding: 10px;
+}
+
+.about
+{
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+.img img
+{
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 50px;
+}
+.about h1
+{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about p
+{
+    padding-right: 50px;
+    text-align: justify;
+}
+
+
+.our-team-section
+{
+    padding: 60px;
+    background-color: darkslategrey;
+    overflow: hidden;
+    text-align: center;
+}
+    
+    .our-team-section h1
+{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+}
+    .border
+{
+    height: 3px;
+    width: 160px;
+    background-color: #3498db;
+    margin: auto;
+    margin-top: -50px;
+}
+    .ps
+{
+    margin-top: 40px;
+}
+    .ps a
+{
+    display:inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+    .ps a img
+{
+    width: 100%;
+    filter: grayscale(100%);
+}
+    .ps a:hover>img
+{
+    filter: none;
+}
+    .Section 
+{
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+    padding: 20px;
+}
+    .section:target
+{
+    height: auto;
+}
+    .name
+{
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 20px;
+    color:yellow;
+}
+  
+
+form
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 1260px;
+    height: 350px;
+    margin: auto;
+    background-color:beige;
+}
+form input[type="text"],input[type="email"],input[type="password"]
+{
+    padding: 14 10;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 2px solid orange;
+    background: none;
+    color: green;
+    outline: none;
+    font-size: 20px;
+}
+input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover
+{
+    padding: 14 10;
+    width: 450px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 2px solid green;
+    background: none;
+    color: green;
+    outline: none;
+    font-size: 25px;
+    border-radius: 20px;
+    
+}
+.submit
+{   
+    padding: 10px;
+    width: 120px;
+    background-color:dodgerblue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.submit:hover
+{   
+    padding: 10px;
+    width: 120px;
+    background-color:chartreuse;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color:dimgray;
+    
+}
+.contact h1
+{
+    text-align: center;
+    color:blue;
+}
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    background-color: aliceblue;
+}
+/* Responsive----------------*/
+@media(min-width:1201px)
+{
+   form{
+        width:1100px;
+    }
+    .portfolio
+    {
+        min-width: 1200px;
+        overflow: hidden;
+    }
+} 
+
+@media(min-width:992px) and (max-width:1200px)
+{
+    form{
+        width:900px;
+    }
+    .portfolio
+    {
+        min-width: 992px;
+        max-width: 1199px;
+        overflow: hidden;
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+        
+.logo a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+ul
+{
+    padding: 0px;
+    margin: 0px;  
+    float: right;
+}
+
+ul li
+{
+    float: left;
+    list-style: none;
+    font-size: 15px;
+    margin-top: 34px;
+    margin-left: 20px;
+    
+}
+
+.banner
+{
+    min-height: 380px;
+    
+}
+.banner h2 
+{
+    font-size: 25px;
+}
+.banner h1
+{
+    font-size: 51px;
+}
+.btn1
+{
+    padding: 10px;
+    width: 120px;
+}
+.services
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.services h1
+{
+    margin-top: 70px;
+    font-size: 25px;
+}
+.inner-services
+{
+    display: block;
+    
+    margin: auto;
+}
+
+.row
+{
+    display: block;
+    
+    margin: auto;
+}
+.row img
+{
+    margin-left: 80px;
+    width: 170px; 
+    height: 170px;
+    border-radius: 50%;
+    }
+
+.portfolio p
+{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.fig1
+{
+    margin-left: 70px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.fig2 
+{
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 70px; 
+    margin-bottom: 50px;
+}
+figcaption
+{
+    background: none;
+    padding: 10px;
+    display:block;
+}
+ 
+.about
+{
+    display: block;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    
+}
+.img img
+{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about h1
+{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.about p
+{
+    padding:30px;
+    text-align: justify;
+    font-size: 18px;
+}
+form
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 750px;
+    height: 350px;
+    margin: auto;
+    background-color:beige;
+}
+form input[type="text"],input[type="email"],input[type="password"]
+{
+    padding: 12 10;
+    width: 330px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 2px solid orange;
+    background: none;
+    color: green;
+    outline: none;
+    font-size: 20px;
+}
+input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover
+{
+    padding: 12 10;
+    width: 360px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 2px solid green;
+    background: none;
+    color: green;
+    outline: none;
+    font-size: 25px;
+    border-radius: 20px;
+    
+}
+.submit
+{   
+    padding: 10px;
+    width: 110px;
+    background-color:dodgerblue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.submit:hover
+{   
+    padding: 10px;
+    width: 110px;
+    background-color:chartreuse;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color:dimgray;
+    
+}
+.contact h1
+{
+    text-align: center;
+    color:blue;
+}    
+}
+    
+/* 575--767-----------------*/
+    
+@media(min-width:100px) and (max-width:575px) 
+{
+        
+.header
+{
+    display: none;
+    
+}
+.logo
+    {
+        display: none;
+    }
+    ul{
+        display: none;
+    }  
+    li{
+        display: none;
+    }
+  
+.banner
+{
+    background-size: 700px;
+    max-height: 574px; 
+    
+}
+    .banner h2 
+{
+    font-size: 20px;
+}
+.banner h1
+{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.btn1
+{
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+}
+.services
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.services h1
+{
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+.inner-services
+{
+    display: block;
+    margin: auto;
+}
+
+.row
+{
+    display: block;
+    margin: auto;
+}
+.row img
+{
+    margin-left: 80px;
+    width: 170px; 
+    height: 170px;
+    border-radius: 50%;
+    }
+
+.portfolio p
+{
+    margin-bottom: 40px;
+    font-size: 8px;
+}
+.portfolio h1
+    {
+        font-size: 20px;
+        
+    }
+
+.fig1
+{
+    margin-left: 70px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.fig2 
+{
+    font-size: 15px;
+    font-weight: 100;
+    margin-left: 70px; 
+    margin-bottom: 50px;
+}
+figcaption
+{
+    background: none;
+    padding: 0px;
+    display:block;
+}
+ 
+.about
+{
+    display: block;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    
+}
+.img img
+{
+    width:170px;
+    height: 170px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.about h1
+{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+.about p
+{
+    padding:20px;
+    text-align: justify;
+    font-size: 14px;
+} 
+    
+.our-team-section
+{
+    padding: 0px;
+    
+}
+    
+    .our-team-section h1
+{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: white;
+    font-size: 20px;
+}
+    .border
+{
+    height: 3px;
+    width: 100px;
+    background-color: #3498db;
+    margin: auto;
+}
+    .ps
+{
+    margin-top: 40px;
+}
+    .ps a
+{
+    display:inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+    .ps a img
+{
+    width: 100%;
+    filter: grayscale(100%);
+}
+    .ps a:hover>img
+{
+    filter: none;
+}
+    .Section 
+{
+    width: 570px;
+    margin: auto;
+    font-size: 13px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+}
+    .section:target
+{
+    height: auto;
+}
+    .name
+{
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    color:yellow;
+}    
+ 
+form
+{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 250px;
+    margin: auto;
+    background-color:beige;
+    max-width: 440px;
+}
+form input[type="text"],input[type="email"],input[type="password"]
+{
+    padding: 10 8;
+    width: 250px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 2px solid orange;
+    background: none;
+    color: green;
+    outline: none;
+    font-size: 20px;
+}
+input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover
+{
+    padding: 10 8;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 2px solid green;
+    background: none;
+    color: green;
+    outline: none;
+    font-size: 25px;
+    border-radius: 20px;
+    
+}
+.submit
+{   
+    padding: 10px;
+    width: 90px;
+    background-color:dodgerblue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.submit:hover
+{   
+    padding: 10px;
+    width: 90px;
+    background-color:chartreuse;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color:dimgray;
+    
+}
+.contact h1
+{
+    text-align: center;
+    color:blue;
+    font-size: 20px;
+}    
+   
+}
+
+
+@media(min-width:576px) and (max-width:767px)
+{
+  
+.logo
+    {
+        float: none;
+        text-align: center;
+    }
+.logo a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    
+    }
+ul
+{
+    display: none;
+}
+    li{
+        display: none;
+    }
+
+.banner
+{
+    min-width: 500px;
+    max-width: 767px;
+    
+}
+    .banner h2 
+{
+    font-size: 20px;
+}
+.banner h1
+{
+    margin-top: 5px;
+    font-size: 27px;
+}
+.btn1
+{
+    padding: 10px;
+    margin-top: 12px;   
+    width: 100px;
+}
+.services
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.services h1
+{
+    margin-top: 30px;
+    font-size: 23px;
+}
+.services p
+{
+    font-size: 16px;
+}
+.inner-services
+{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+
+.row
+{
+    display: block;
+    width: 100%;
+    margin: auto;
+}
+.row img
+{
+    margin-left: 80px;
+    width: 170px; 
+    height: 170px;
+    border-radius: 50%;
+    
+}
+
+.portfolio p
+{
+    margin-bottom:40px;
+    font-size: 13px;
+}
+.portfolio h1
+{
+    font-size: 25px;
+}
+
+.fig1
+{
+    margin-left: 70px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    
+    
+}
+.fig2 
+{
+    font-size: 12px;
+    font-weight: 100;
+    margin-left: 70px; 
+    margin-bottom: 50px;
+    margin-top: -17px;
+   
+}
+figcaption
+{
+    background: none;
+    padding: 10px;
+    display:block;
+    }
+ 
+.about
+{
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+.img img
+{
+    width:170px;
+    height: 170px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.about h1
+{
+    margin-top: 00px;
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 23px;
+}
+.about p
+{
+    padding:30px;
+    text-align: justify;
+    font-size: 14px;
+}
+    
+.our-team-section
+{
+    padding: 10px;
+    background-color: darkslategrey;
+    overflow: hidden;
+    text-align: center;
+}
+    
+    .our-team-section h1
+{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 23px;
+}
+    .border
+{
+    height: 3px;
+    width: 80px;
+    background-color: #3498db;
+    margin: auto;
+    margin-top: -30px;
+}
+    .ps
+{
+    margin-top: 40px;
+}
+    .ps a
+{
+    display:inline-block;
+    margin: 0 30px;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+    .ps a img
+{
+    width: 100%;
+    filter: grayscale(100%);
+}
+    .ps a:hover>img
+{
+    filter: none;
+}
+    .Section 
+{
+    min-width: 570px;
+    max-width: 767px;
+    margin: auto;
+    font-size: 14px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+    padding: 10px;
+}
+    .section:target
+{
+    height: auto;
+}
+    .name
+{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    color:yellow;
+}
+  
+
+form
+{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 500px;
+    
+    height: 350px;
+    margin: auto;
+    background-color:beige;
+}
+form input[type="text"],input[type="email"],input[type="password"]
+{
+    padding: 12 9;
+    width: 310px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 2px solid orange;
+    background: none;
+    color: green;
+    outline: none;
+    font-size: 20px;
+}
+input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover
+{
+    padding: 12 9;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 30px;
+    border: 2px solid green;
+    background: none;
+    color: green;
+    outline: none;
+    font-size: 25px;
+    border-radius: 20px;
+    
+}
+.submit
+{   
+    padding: 10px;
+    width: 100px;
+    background-color:dodgerblue;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.submit:hover
+{   
+    padding: 10px;
+    width: 100px;
+    background-color:chartreuse;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color:dimgray;
+    
+}
+.contact h1
+{
+    text-align: center;
+    color:blue;
+    font-size: 23px;
+}    
+    
+}
