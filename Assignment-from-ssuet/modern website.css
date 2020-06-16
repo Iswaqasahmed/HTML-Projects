@@ -1,0 +1,105 @@
+*{
+    color: white;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: 0px;
+    margin: 00px;
+}
+.header
+{   
+    height: 100vh;
+    background-image: url(burning\ letter.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    clip-path: polygon(0% 0%,100% 0%,100% 75%,0% 100%);
+}
+.logo
+{
+    float: left;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;   
+    
+}
+.logo h1
+{
+    color: white;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 800px;
+    float: right;
+   /* background-color: red;*/
+    height: 80px;
+}
+ul li
+{
+    font-size: 20px;
+    list-style-type: none;
+}
+li a
+{
+    text-decoration: none;
+    color:white;
+}
+li a:hover, .logo h1:hover
+{
+    color: rgb(25, 151, 8);
+    cursor: pointer;
+    
+
+}
+.banner
+{
+    display: flex;
+    width: 100%;
+}
+.left-side
+{
+    width: 50%;
+}
+.right-side
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+}
+.right-side h1
+{
+    color: white;
+    font-size: 47px;
+    text-transform: uppercase;    
+    font-weight: 300;
+}
+.right-side h3
+{
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-top: 4%;
+}
+button
+{
+    width: 140px;
+    background-color: rgb(48, 113, 150);
+    padding: 10px;
+    border:none;
+    margin-top: 4%;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+button:hover
+{
+    cursor: pointer;
+    background-color: rgb(97, 58, 170);
+}
