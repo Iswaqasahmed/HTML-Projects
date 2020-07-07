@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.logo{
+    height: 30px;
+    width: 170px;
+    margin-left: 250px;
+    color: white; 
+    margin-top: 30px;   
+}
+
+nav{
+    background-color: rgb(47, 47, 78);
+    height: 80px;
+    position: relative;
+}
+.menu{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-weight: bolder;
+       
+}
+nav a:hover{
+    color: yellow;
+    cursor: pointer;
+}
+#homeImage{
+    background-image: url('../img/restaurant1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    width: 100%;
+    border-bottom: 5px solid rgb(47, 47, 78) ;
+}
+.homePlan{
+    padding: 20px;
+}
+.para::first-letter{
+    font-weight: bold;
+    font-size: 35px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(47, 47, 78);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+/* Services Page */
+#servicesTitle{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: normal;
+}
+#servicesImage{
+    background-image: url('../img/restaurant.jpg');
+    height: 300px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+#servicesPara{
+    padding: 20px;
+   
+}
+#servicesPara h2{
+    margin-bottom: 30px;
+}
+/* Portfolio */
+.titlePortflio{
+    text-align: center;
+    margin-top: 30px;
+}
+.project{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+}
+.content h1{
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.content{
+    padding: 0px 40px
+    
+}
+.projectBtn{
+    background-color: rgb(150, 5, 5);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+/* About Us page */
+/* I used here same styling as of portfolio*/
+/* No need to add styling in this section */
+
+/* Contact Us page */
+.titleContact{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+.contact-Us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact,.contactDetails{
+    padding-left: 30px;
+}
+.contact h2, .contactDetails h2{
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+form,input,textarea{
+    width: 100%;
+    background-color: rgb(240, 243, 239);
+    border: 1px solid rgb(143, 189, 105);
+    padding: 10px;
+}
+#submitBtn{
+    background: blue;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    width: 130px;
+    border: none;
+    border-radius: 7px;
+}
+#submitBtn:hover{
+    background-color: rgb(0, 110, 255);
+    color: yellow;
+    cursor: pointer;
+}
+.contactDetails{
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+footer{
+    margin-top: 20px;
+}
