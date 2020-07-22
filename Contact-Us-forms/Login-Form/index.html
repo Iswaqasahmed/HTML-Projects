@@ -1,0 +1,93 @@
+<html>
+<head>
+<style>
+    body{
+        padding: 0px;
+        margin: 0px;
+        background-color: antiquewhite;
+        font-family: sans-serif;
+        text-align: center;
+    }
+    form{
+        width: 300px;
+        padding: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: black;
+    }
+    .form input[type="text"],.form input[type="email"],.form input[type="password"]{
+        background: none;
+        border-bottom: 1px solid green;
+        margin: 20px auto;
+        padding: 14 10;
+        display: block;
+        transition: .25s;
+        outline: none;
+        color: white;
+        font-weight: 600;
+        width: 280px;
+        
+    }
+    .form input[type="text"]:hover,.form input[type="email"]:hover,.form input[type="password"]:hover{
+        background: none;
+        border-bottom: 5px solid Pink;
+        margin: 20px auto;
+        padding: 14 10;
+        display: block;
+        transition: .25s;
+        outline: none;
+        color: white;
+        font-weight: 600;
+        width: 320px;
+        font-size: 20px;
+        
+    }
+    .form input[type="submit"]{
+        background: none;
+        border-bottom: 1px solid green;
+        margin: 20px auto;
+        padding: 14 10;
+        display: block;
+        transition: .25s;
+        width: 120px;
+        color: white;
+        border-radius: 25px;
+        
+    }
+    .form input[type="submit"]:hover{
+        background: green;
+        margin: 20px auto;
+        padding: 14 10;
+        display: block;
+        transition: .25s;
+        width: 120px;
+        color: white;
+        border-radius: 25px;
+        
+    }
+    .form h2{
+        color: white;
+           
+    }
+    
+    
+</style>    
+</head>
+<body>
+        <form  class="form"> 
+       <h2> Login Your Account  </h2>
+            
+        <input type="text" name="" placeholder="Username..">
+        <input type="email" name="" placeholder="Email..">
+        <input type="password" name="" placeholder="Password..">
+        <input type="submit" name="" value="Submit..">
+    
+    
+    
+    </form>
+    
+</body>
+
+</html>

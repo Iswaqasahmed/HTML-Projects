@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body
+{
+    background-image: url(download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align:center;
+    font-size: 27px;
+}
+form
+{
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    width: 30%;
+    border-radius: 15px;
+    background-color: white;
+    position: fixed;
+    padding: 30px;
+
+}
+.form input[type="text"],.form input[type="email"]
+{
+    display: block;
+    border: 1px solid gray;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.textarea
+{
+    display: block;
+    border: 1px solid gray;
+    height: 90px;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+}
+.btn
+{
+    width: 100%;
+    padding: 12px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    margin: 8px;
+    cursor: pointer;
+}
+
+label
+{   margin: 20px;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}

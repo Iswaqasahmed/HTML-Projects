@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(download3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+form{
+    width: 450px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    display: flex;
+    background-color: black;
+    padding: 40px;
+    padding-bottom: 50px;
+}
+.form input[type="text"],.form input[type="email"],.form input[type="tel"]
+{
+    padding: 14 10;
+    margin: 10;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom:solid white;
+    width: 240px;
+    color: white;
+}
+textarea
+{
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom:solid white;
+    width: 215px;
+    margin-top: 23px;
+    color: white;
+    height: 87.5%;
+}
+ input[type="submit"]
+{
+    width: 215px;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    background-color: deepskyblue;
+    position: absolute;
+    top: 73%;
+    left: 62.5%;
+}
+@media (max-width:600px)
+{
+    .form
+    {
+        flex-direction: column;
+    }
+}
