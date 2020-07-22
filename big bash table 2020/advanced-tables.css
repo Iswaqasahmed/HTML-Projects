@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 00px;
+    font-family: sans-serif;
+}
+.header{
+    height: 110px;
+    background-color: blue;
+}
+.header p:nth-child(1)
+{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 6%;
+    left: 35%;
+    font-weight: bold;
+}
+table, td, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+.pos{
+    width: 11%;
+}
+.teams{
+    width: 44%;
+}
+.rest{
+    width: 9%;
+}
+.brown{
+    background-color: brown;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.white
+{
+    background-color: white;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.gray{
+    background-color: gray;
+    height: 50px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    
+}
